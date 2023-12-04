@@ -16,6 +16,7 @@ public class Main {
         String currentLine;
         while (scanner.hasNext()) {
             currentLine = scanner.nextLine();
+            input.add(currentLine);
         }
         scanner.close();
         int result1 = solve1(input);
