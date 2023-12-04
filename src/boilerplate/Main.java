@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        File inputFile = new File("./src/day7/input.txt");
-        //File inputFile = new File("./src/day7/example.txt");
+        //File inputFile = new File("./src/day7/input.txt");
+        File inputFile = new File("./src/day7/example.txt");
         Scanner scanner = new Scanner(inputFile).useDelimiter("\r\n");
         List<String> input = new ArrayList<>();
         String currentLine;
